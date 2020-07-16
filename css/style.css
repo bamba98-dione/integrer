@@ -1,0 +1,157 @@
+@@charset "UTF-8";
+
+body ,html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:  sans-serif;
+  background-color: #ffffff;
+}
+.container h1{
+  text-align: center;
+}
+
+a, a:hover{
+  text-decoration: : none;
+}
+.container-fluid{
+  padding: 0;
+}
+#separator{
+  background-color: #dc0000;
+  height: 3px;
+  width: 8%;
+}
+.container-fluid .container .marge{
+  margin-top:  15%;
+  padding: 10px;
+}
+/* header*/
+.header{
+  height: 33px;
+  line-height: 33px;
+
+background-color: #8a8c91;
+
+}
+
+.logo{
+  color: #cb1b1c;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+
+
+}
+
+.menu{
+  float: right;
+}
+.menu a{
+  margin-right: 50px;
+    color: #ffffff;
+}
+.menu a:hover{
+  color: #ffccfc;
+}
+
+/*slider */
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+.ban{
+  width: 100%;
+  max-width: 100%;
+}
+.ban img{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0px;
+  height: 500px;
+
+}
+.inner-banner{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.inner-banner h1,h3{
+  color: #ffffff;
+}
+.inner-banner h3{
+  font-size: 20px;
+
+}
+.inner-banner h1{
+  font-size: 40px;
+}
+.btn-custom{
+  background-color: #3b3c41;
+  color: #ffffff;
+}
+/* latest*/
+
+/* blog */
+.blog{
+  margin-top: 9%;
+}
+.blog h3{
+  color: black;
+}
+/* trending*/
+.trending{
+  background-color: #eaeaea;
+}
+.nathan h1 {
+  font-size: 20px;
+  color: #dc0000;
+  margin-left: 15px;
+  text-align: left;
+
+}
+.nathan hr{
+  height: 1px;
+  width: 3%;
+  background-color: black;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5%;
+}
+.nathan p{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.nathan .btn-custom m,xl,xxl{
+  background-color: inherit;
+
+}
+
+/* subscribe */
+.subscribe{
+  background-color: #454748;
+ margin-top: 5%;
+  height: 120px;
+
+}
+.subscribe .btn-custom{
+  background-color: #ffffff;
+  color: #000000;
+}
+.subscribe h1{
+  font-size: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+/*footer */
+.footer{
+  margin-top: 5%;
+
+}
+.footer .container h1{
+    font-size: 20px;
+}
